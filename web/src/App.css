@@ -1,0 +1,64 @@
+.alert {
+  position: absolute;
+  padding: 20px;
+  margin-left: 5px;
+  background-color: #ffbb00;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.card {
+  display: grid;
+  justify-items: center;
+  margin: 30px;
+  min-height: 50rem;
+}
+form {
+  max-width: 350px;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 3px 24px -8px rgba(0, 0, 0, 0.75);
+}
+
+.name-field {
+  margin-bottom: 40px;
+}
+
+.no-history {
+  padding: 70px 0;
+  text-align: center;
+  color: gray;
+  font-style: italic;
+}
+
+button {
+  margin-top: 20px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(120, 248, 120);
+}
+
+.render-chat {
+  overflow:scroll;
+  max-width: 350px;
+  min-height: 25rem;
+  max-height: 25rem;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 3px 24px -8px rgba(0, 0, 0, 0.75);
+}
+
+h4 {
+  color: #2f72da;
+  margin: 10px;
+  margin-left: 0px;
+  margin-bottom: 2px;
+}
+
+p {
+  color: black;
+  margin: 2px;
+  margin-bottom: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
